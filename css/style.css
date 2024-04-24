@@ -1,0 +1,81 @@
+html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 22px;
+}
+
+body {
+    min-height: 100vh;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 1rem;
+    border-left: 1px solid #333;
+    border-right: 1px solid #333;
+}
+
+th, td, caption {
+    border: 1px solid #333;
+    font-family: 'Courier New', Courier, monospace;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+
+/* Set background color */
+body {
+    background-color: #f2f7fd; /* light blue */
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff; /* primary blue */
+    color: #fff; /* white */
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #fff; /* white */
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #f8f9fa; /* light grey */
+}
+
+/* Main content styles */
+main {
+    padding: 20px;
+}
+
+article {
+    margin-bottom: 40px;
+}
+
+aside {
+    background-color: #cce5ff; /* light blue */
+    padding: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #007bff; /* primary blue */
+    color: #fff; /* white */
+    text-align: center;
+    padding: 10px 0;
+}
